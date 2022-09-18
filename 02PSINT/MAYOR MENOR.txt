@@ -1,0 +1,29 @@
+Algoritmo sin_titulo
+	Definir a,b,c Como entero
+	Escribir "Escribe el valor de a"
+	Leer a
+	Escribir "Escribe el valor de b"
+	Leer b
+	Escribir "Escribe el valor de c"
+	Leer c
+	
+	si a>b y a>c 
+		Escribir "El numero mayor es " a
+	SiNo
+		si b>a y b>c Entonces
+			Escribir "El numero mayor es" b
+		SiNo
+			si c>a y c>b Entonces
+				Escribir "El numero mayor es " c
+			SiNo
+			 Escribir "Los numeros son iguales"
+				
+			FinSi
+			
+			
+		FinSi
+	
+		
+
+		
+	FinSi

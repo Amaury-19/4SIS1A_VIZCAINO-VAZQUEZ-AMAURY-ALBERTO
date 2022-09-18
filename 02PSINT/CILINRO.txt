@@ -1,0 +1,18 @@
+Algoritmo sin_titulo
+	Definir r, h, a, v	 Como real
+	
+	Escribir "Ingrese el valor del radio"
+	leer r
+	Escribir "Ingrese el valor de la altura"
+	leer h
+	
+	a= (2*PI*r)*(r+h)
+	v= PI*(r*r)*h
+	
+	Escribir "EL valor del area es " a
+	Escribir "EL valor del volumen es " v
+	
+	
+	
+FinAlgoritmo
+

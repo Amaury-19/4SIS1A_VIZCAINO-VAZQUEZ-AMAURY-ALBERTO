@@ -1,0 +1,15 @@
+Algoritmo sin_titulo
+	Definir a, b, c Como real
+	
+	Escribir "Ingrese el valor del lado 1"
+	leer a
+	Escribir "Ingrese el valor del lado 2"
+	leer b
+	
+	c= RC((a*a)+(b*b))
+	
+	Escribir "EL valor de la hipotenusa es " c	
+	
+	
+	
+FinAlgoritmo

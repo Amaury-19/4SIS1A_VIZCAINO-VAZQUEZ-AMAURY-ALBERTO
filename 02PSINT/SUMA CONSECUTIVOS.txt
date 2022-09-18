@@ -1,0 +1,17 @@
+Algoritmo sin_titulo
+	Definir a,b,c Como entero
+	Escribir "Escribe el valor de a"
+Algoritmo sin_titulo
+	Definir suma Como Entero
+	
+	suma<-0
+	Para i<-1 hasta 10 Con Paso 1 Hacer
+		suma<-suma+i
+	FinPara
+	
+	Escribir "La suma de los numeros consecutivos del 1 al 10 es: " suma
+	
+	
+	
+FinAlgoritmo
+	

@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch EntradaTexto",
+            "request": "launch",
+            "mainClass": "EntradaTexto",
+            "projectName": "4SIS1A_VIZCAINO VAZQUEZ AMAURY ALBERTO_bab5968e"
+        },
+        {
+            "type": "java",
+            "name": "Launch EstructuraDatos",
+            "request": "launch",
+            "mainClass": "EstructuraDatos",
+            "projectName": "4SIS1A_VIZCAINO VAZQUEZ AMAURY ALBERTO_bab5968e"
+        },
+        {
+            "type": "java",
+            "name": "Launch holamundo",
+            "request": "launch",
+            "mainClass": "holamundo",
+            "projectName": "4SIS1A_VIZCAINO VAZQUEZ AMAURY ALBERTO_bab5968e"
+        }
+    ]
+}

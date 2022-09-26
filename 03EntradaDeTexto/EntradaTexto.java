@@ -21,7 +21,7 @@ class EntradaTexto{
 
         //tenemos que concatenar los elementos
 
-        System.out.println("Hola" + nombre + "Bienvenido a la tronadera");
+        System.out.println("Hola " + nombre + " AmaBienvenido a la tronadera");
     
     }
 

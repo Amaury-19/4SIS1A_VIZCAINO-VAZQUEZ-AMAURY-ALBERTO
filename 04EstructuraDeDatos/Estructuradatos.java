@@ -21,6 +21,7 @@ import java.util.Scanner;
 import javax.lang.model.util.ElementScanner14;
 import javax.security.auth.x500.X500Principal;
 import javax.smartcardio.CardException;
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar;
 
 class EstructuraDatos {
 
@@ -29,10 +30,11 @@ class EstructuraDatos {
         Scanner entrada = new Scanner(System.in);
 
         //aqui van a ir las variables
-        int opcion, numbinario, edad, numero, figuras, opcion3, base, altura, area, perimetro, volumen, ladotrian, radio, factorial = 1, i, j ;
+        int opcion, numbinario, edad, numero, figuras, opcion3, base, altura, area, perimetro, volumen, ladotrian, radio, factorial = 1, i, j, total, cantidadprod ;
         char letra, letra1;
         String binario = "";
-        float temperatura, conversion;
+        String Nombreproducto
+        float temperatura, conversion, precio;
 
         do{
             System.out.println("Bienvenido al programa de las tareas que son para el lunes a las 7 am wiii (n_n)/");
@@ -170,18 +172,43 @@ class EstructuraDatos {
                         
                     
                     //System.out.print("Desea introducir más números? (S/N): ");                                  
-           // respuesta = (char) System.in.read();
+                    // respuesta = (char) System.in.read();
 
-         //while (respuesta != 'N' && respuesta != 'n');
+                    //while (respuesta != 'N' && respuesta != 'n');
                 
-        //}
+                    //}
 
 
                     break;    
 
 
                 case 5:
+
+                System.out.println("Bienvenido a la tienda Kwaii");
+                System.out.println("Ingrese cuantos elementos va a comprar");
+                total = entrada.nextInt();
+
+                for(int i = 1; i <=total; i++){
+                    System.out.println("Ingresa el nombre del producto");
+                    Nombreproducto = entrada.next()
+                    System.out.println("Ingresa el precio del producto");
+                    System.out.println("Ingresa la cantidad");
+
+
+
+                }
+
+
+
+
+
+
+
+
                     break;
+
+
+
                 case 6:
                     //AREAS, PERIMETROS Y VOLUMEN
                     Scanner F = new Scanner(System.in);

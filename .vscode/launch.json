@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ventana",
+            "request": "launch",
+            "mainClass": "Ventana",
+            "projectName": "4SIS1A_VIZCAINO VAZQUEZ AMAURY ALBERTO_bab5968e"
+        },
+        {
+            "type": "java",
             "name": "Launch Principal",
             "request": "launch",
             "mainClass": "Principal",

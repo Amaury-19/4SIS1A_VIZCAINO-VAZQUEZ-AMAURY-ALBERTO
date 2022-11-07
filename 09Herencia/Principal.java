@@ -9,11 +9,11 @@ public class Principal {
         //hago la instancia del animal perro
         perro dog = new perro();
         Gato cat = new Gato();
-        Hamster reou = new Hamster();
-        Conejo bad = new Conejo();
-        Cuyo nose = new Cuyo();
-        Uron risa = new Uron();
-        Pez gluglu = new Pez();
+        Hamster raton = new Hamster();
+        Conejo badbunny = new Conejo();
+        Cuyo hamtaro = new Cuyo();
+        Uron perezoso = new Uron();
+        Pez nemo = new Pez();
 
         /*Quiero que se cree un menu mediante el cual el usuario pueda ingresar los datos de los animales:
          * 
@@ -27,7 +27,9 @@ public class Principal {
          * 
          * Debera de poder ingresar cada uno de los datos y asi mismo deberan de entregar el diagrama de clases hecho en star uml aplicando la herencia correspondiente y el programa
         */
-        System.out.println("Lee las opciones y escoje tu animalito ");
+        System.out.println("CLINICA VETERINARIO *ANIMALITOS* ");
+        System.out.println("")
+        System.out.println("Elige la opcion correspondiente ");
         System.out.println(" 1 perro ");
         System.out.println(" 2 gato ");
         System.out.println(" 3 Hamster");
@@ -35,7 +37,7 @@ public class Principal {
         System.out.println(" 5 Cuyo ");
         System.out.println(" 6 Uron ");
         System.out.println(" 7 Sorpresa ");
-        System.out.println("Digita tu opcion ");
+       
         op = entrada.nextInt();
 
         switch(op){
@@ -48,23 +50,23 @@ public class Principal {
             break;
 
             case 3:
-            reou.mostrarHamster();
+            raton.mostrarHamster();
             break;
 
             case 4:
-            bad.mostrarConejo();
+            badbunny.mostrarConejo();
             break;
 
             case 5:
-            nose.mostrarCuyo();
+            hamtaro.mostrarCuyo();
             break;
 
             case 6:
-            risa.mostrarUron();
+            perezoso.mostrarUron();
             break;
 
             case 7:
-            gluglu.mostrarPez();
+            nemo.mostrarPez();
             break;
         }
     }    
